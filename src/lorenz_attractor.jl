@@ -1,5 +1,9 @@
 using Plots
 
+"""
+Thomas Breloff. (2021). [Lorenz Attractor]. https://docs.juliaplots.org/latest/
+"""
+
 # Define Lorenz Attractor
 Base.@kwdef mutable struct Lorenz
     dt::Float64 = 0.02
